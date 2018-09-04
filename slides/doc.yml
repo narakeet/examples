@@ -1,0 +1,78 @@
+size: 720p
+resourceDir: resources
+scenes:
+# use simple text as a title
+  - slide: Hi there!
+# specify duration to stay on screen
+  - slide: This stays on screen for 2 seconds
+    duration: 2
+# use markdown in slides, remember to use | to tell YAML not to concatenate lines
+  - slide: |
+      # Heading 1
+      ## Heading 2
+      
+      * bullet 1
+      * bullet 2
+    duration: 2
+# use fenced blocks for code, and set the language for syntax highlighting 
+  - slide: |
+      Syntax highlighting
+      ``` css
+        .container {
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          height: 100%;
+          width: 100%;
+          padding: 40px;
+        }
+      ```
+    duration: 2
+# mix with a background image
+  - slide: Let's talk about penguins
+    image: penguin.jpg
+    duration: 2
+# set background size to cover the slide
+  - image:
+      file: seaside.jpg
+      size: cover
+    duration: 2
+    slide: |
+      ``` yml
+      image:
+        file: seaside.jpg
+        size: cover
+      ```
+# set background size to contain the slide
+  - image:
+      file: seaside.jpg
+      size: contain
+    duration: 2
+    slide: |
+      ``` yml
+      image:
+        file: seaside.jpg
+        size: contain
+      ```
+# set background position
+  - image:
+      file: seaside.jpg
+      position: top
+    duration: 2
+    slide: |
+      ``` yml
+      image:
+        file: seaside.jpg
+        position: top
+      ```
+# set background position
+  - image:
+      file: seaside.jpg
+      position: bottom
+    duration: 2
+    slide: |
+      ``` yml
+      image:
+        file: seaside.jpg
+        position: bottom
+      ```
