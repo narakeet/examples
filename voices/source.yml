@@ -5,35 +5,33 @@ scenes:
     voice: Charles
     narration: >
       Before we fix any rules let us think of some familiar cases. There are 60
-      minutes in the hour, 24 hours in the day, 7 days in the week.  There are
-      therefore 1440 minutes in the day and 10080 minutes in the week.
+      minutes in the hour, 24 hours in the day, 7 days in the week. 
     slide: |
       ```yml
       voice: Charles
       ```
-  - image: berlin.jpg
+  - image: london.jpg
     voice: Elisabeth
     narration: >
-      Passengers booked to fly British Airways to Cairo this week will find
-      themselves boarding not one of the most advanced aircraft on the planet
-      but instead a plane belonging to a Belgian budget airline.
+      Passengers booked to fly British Airways to Cairo this week, will find
+      themselves boarding a plane belonging to a Belgian budget airline.
     slide: |
       ```yml
       voice: Elisabeth
       ```
   - image: berlin.jpg
-    voice: Marlene
+    voice: Monika
     narration: >
       Heute Nacht sollen wir in Bombay einlaufen, es ist schon höchste
       Zeit, da meine gesammte Wäsche erschöpft ist und ich nothwendig
       einer Neuausrüstung bedarf.
     slide: |
       ```yml
-      voice: Marlene
+      voice: Monika
       ```
   - image: berlin.jpg
     narration: >
-      Abends spät sollen wir in Port Saïd eintreffen; hoffentlich erst morgen,
+      Abends spät sollen wir in Port Saïd eintreffen. Hoffentlich erst morgen,
       denn bei dem Lärm des Kohlens könnten wir ja doch nicht schlafen.
     voice: Helmut
     slide: |
@@ -43,26 +41,47 @@ scenes:
   - image:
       position: top
       file: ny.jpg
-    voice: Sarah
+    voice: lisa
     narration: >
-      Outside the National Museum, several people tried to storm the gates and
-      enter the grounds of the still smoldering building. Television and still
-      images showed police in riot gear using pepper spray to contain the
-      crowd.
+      Many districts and landmarks in New York City are well known, with the
+      city having three of the world's ten most visited tourist attractions in
+      2013.
     slide: |
       ```yml
-      voice: Sarah
+      voice: Lisa
       ```
   - image:
       position: top
       file: ny.jpg
     voice: Mike
     narration: >
-      I just wanted to go back again and again, it was like Christmas every day
-      going through these collections and I just loved it. I'm hungry for it
-      again, I want to go, I want to keep digging
+      Situated on one of the world's largest natural harbors, New York
+      City consists of five boroughs, each of which is a separate county of the
+      State of New York.
     slide: |
       ```yml
       voice: Mike
       ```
+  - image:
+      position: top
+      file: ny.jpg
+    narration: >
+      <speak>
+        <emphasis level="moderate">This is an important announcement</emphasis>
+        <prosody rate="slow" pitch="-2st">Can you hear me now?</prosody>  
+        <say-as interpret-as="verbatim">abcdefg</say-as>
+      </speak>
+    slide: |
+      For SSML, wrap the narration into <speak></speak>
+      ```xml
+        <speak>
+          <emphasis level="moderate">
+            This is an important announcement
+          </emphasis>
+          <prosody rate="slow" pitch="-2st">
+            Can you hear me now?
+          </prosody>  
+          <say-as interpret-as="verbatim">abcdefg</say-as>
+        </speak>
 
+      ```
