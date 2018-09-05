@@ -1,39 +1,47 @@
 size: 720p
 resourceDir: resources
+# to set a voice on the whole document, just use the voice property
+voice: William
 scenes:
   - image: london.jpg
-    voice: Charles
-    narration: >
-      Before we fix any rules let us think of some familiar cases. There are 60
-      minutes in the hour, 24 hours in the day, 7 days in the week. 
+    narration: Before we fix any rules let us think of some familiar cases. There are
+        60 minutes in the hour, 24 hours in the day, 7 days in the week. 
     slide: |
       ```yml
-      voice: Charles
+      voice: William
       ```
   - image: london.jpg
-    voice: Elisabeth
-    narration: >
-      Passengers booked to fly British Airways to Cairo this week, will find
-      themselves boarding a plane belonging to a Belgian budget airline.
+    # to set a voice on an individual narration, 
+    # provide the content in the text property, 
+    # and the voice in the voice property
+    narration:
+      text: > 
+        Passengers booked to fly British Airways to Cairo this week, will 
+        instead be boarding a plane belonging to a Belgian budget airline.
+
+      voice: Elisabeth
     slide: |
       ```yml
       voice: Elisabeth
       ```
   - image: berlin.jpg
-    voice: Monika
-    narration: >
-      Heute Nacht sollen wir in Bombay einlaufen, es ist schon höchste
-      Zeit, da meine gesammte Wäsche erschöpft ist und ich nothwendig
-      einer Neuausrüstung bedarf.
+    narration:
+      voice: Monika
+      text: >
+        Heute Nacht sollen wir in Bombay einlaufen, es ist schon höchste
+        Zeit, da meine gesammte Wäsche erschöpft ist und ich nothwendig
+        einer Neuausrüstung bedarf.
     slide: |
       ```yml
       voice: Monika
       ```
   - image: berlin.jpg
-    narration: >
-      Abends spät sollen wir in Port Saïd eintreffen. Hoffentlich erst morgen,
-      denn bei dem Lärm des Kohlens könnten wir ja doch nicht schlafen.
-    voice: Helmut
+    narration:
+      voice: Helmut
+      text: >
+        Abends spät sollen wir in Port Saïd eintreffen. Hoffentlich erst
+        morgen, denn bei dem Lärm des Kohlens könnten wir ja doch nicht
+        schlafen.
     slide: |
       ```yml
       voice: Helmut
@@ -41,11 +49,12 @@ scenes:
   - image:
       position: top
       file: ny.jpg
-    voice: lisa
-    narration: >
-      Many districts and landmarks in New York City are well known, with the
-      city having three of the world's ten most visited tourist attractions in
-      2013.
+    narration:
+      voice: lisa
+      text: >
+        Many districts and landmarks in New York City are well known, with the
+        city having three of the world's ten most visited tourist attractions in
+        2013.
     slide: |
       ```yml
       voice: Lisa
@@ -53,11 +62,13 @@ scenes:
   - image:
       position: top
       file: ny.jpg
-    voice: Mike
-    narration: >
-      Situated on one of the world's largest natural harbors, New York
-      City consists of five boroughs, each of which is a separate county of the
-      State of New York.
+
+    narration:
+      voice: Mike
+      text: >
+        Situated on one of the world's largest natural harbors, New York
+        City consists of five boroughs, each of which is a separate county of the
+        State of New York.
     slide: |
       ```yml
       voice: Mike
@@ -65,6 +76,7 @@ scenes:
   - image:
       position: top
       file: ny.jpg
+    # for SSML, wrap the narration into <speak></speak>
     narration: >
       <speak>
         <emphasis level="moderate">This is an important announcement</emphasis>
@@ -83,5 +95,4 @@ scenes:
           </prosody>  
           <say-as interpret-as="verbatim">abcdefg</say-as>
         </speak>
-
       ```
