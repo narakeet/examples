@@ -11,8 +11,10 @@ scenes:
       # Heading 1
       ## Heading 2
       
-      * bullet 1
+      * bullets are left-aligned
       * bullet 2
+        * sub-bullet
+
     duration: 2
 # use fenced blocks for code, and set the language for syntax highlighting 
   - slide: |
