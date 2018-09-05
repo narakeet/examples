@@ -1,0 +1,46 @@
+size: 720p
+resourceDir: resources
+scenes:
+# just include a video and it will play entirely 
+# before moving on to the next scene
+  - video: stopwatch.mp4
+    narration: Let's start the clock
+# add a segment to cut out a part of the video  
+  - slide: |
+      Show just the first frame
+      ```yaml
+      - video:
+          file: stopwatch.mp4
+          segment: start
+      ```
+      duration: 2
+  - video:
+      file: stopwatch.mp4
+      segment: start
+    narration: >
+      Use the Start segment to show the first frame of a video.
+ - slide: |
+      Show just the end frame
+      ```yaml
+      - video:
+          file: stopwatch.mp4
+          segment: end
+      ```
+      duration: 2
+ - slide: |
+      Play a specific time range
+      ```yaml
+      - video:
+          file: stopwatch.mp4
+          segment: 2 - 4
+      ```
+      duration: 2
+  - video:
+      file: stopwatch.mp4
+      segment: end
+    narration: >
+      Use the End segment marker to show the last frame of a video.
+## use hh:mm:ss - hh:mm:ss or ss - ss to cut out specific part
+  - video:
+      file: stopwatch.mp4
+      segment: 2 - 4
