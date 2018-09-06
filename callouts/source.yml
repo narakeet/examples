@@ -22,3 +22,11 @@ scenes:
       right: 770
       bottom: 130
     duration: 2
+  - video: birds.mp4
+    narration: check out the birds
+    callout:
+      type: circle
+      cx: 400
+      cy: 550
+      size: 75
+
