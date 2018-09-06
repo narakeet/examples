@@ -1,10 +1,7 @@
 size: 720p
 resourceDir: resources
 scenes:
-  - image:
-      file: desole-arch-2.png
-      size: contain
-    slide: Emphasise parts of a scene with callouts
+  - slide: Point out parts of a picture or video with callouts
     duration: 1
   - image: desole-arch-2.png
     duration: 1
@@ -13,7 +10,7 @@ scenes:
       cx: 313
       cy: 250
       size: 100
-    duration: 2
+    narration: First send a message to a SNS topic
   - image: desole-arch-2.png
     callout:
       type: rectangle
@@ -21,7 +18,7 @@ scenes:
       top: 0
       right: 770
       bottom: 130
-    duration: 2
+    narration: It will be processed by the logging component
   - video: birds.mp4
     narration: check out the birds
     callout:
