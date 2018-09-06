@@ -1,0 +1,14 @@
+size: 720p
+resourceDir: resources
+scenes:
+  - image: desole-arch-2.png
+    slide: Emphasise parts of a scene with callouts
+    duration: 1
+  - image: desole-arch-2.png
+    duration: 1
+  - image: desole-arch-2.png
+    callout:
+      cx: 313
+      cy: 250
+      size: 100
+    duration: 2
