@@ -56,6 +56,28 @@ scenes:
         file: seaside.jpg
         size: contain
       ```
+# set background size to a fit the full area
+  - image:
+      file: seaside.jpg
+      size: fit
+    duration: 2
+    slide: |
+      ``` yml
+      image:
+        file: seaside.jpg
+        size: fit
+      ```
+# set background size to a percentage of the picture
+  - image:
+      file: seaside.jpg
+      size: 25%
+    duration: 2
+    slide: |
+      ``` yml
+      image:
+        file: seaside.jpg
+        size: 25%
+      ```
 # set background position
   - image:
       file: seaside.jpg
