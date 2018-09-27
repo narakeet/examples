@@ -1,0 +1,26 @@
+size: 720p
+resourceDir: resources
+scenes:
+  - image: london.jpg
+    narration: |
+      This is the first sentence, and we'll pause for a bit after it.
+
+      (pause: 3)
+
+      This is the second sentence
+    slide: |
+      Use a pause stage direction in a separate paragraph of narration to pause for 3 seconds between speaking
+      ```yml
+      (pause: 3)
+      ```
+  - image: london.jpg
+    narration:
+      pause: 3
+    slide: |
+      Use pause as a narration element instead of text to just pause on a picture for a number of seconds
+      ```yml
+      narration:
+        pause: 3
+      ```
+  - image: london.jpg
+    narration: continuing after the pause
