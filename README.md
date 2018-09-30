@@ -1,1 +1,4 @@
-# Simple example videos for Gojko's yet unnamed video compiler 
+# Video Puppet Examples
+
+This repository contains samples and examples for [Video Puppet](https://www.videopuppet.com) scripts.
+
