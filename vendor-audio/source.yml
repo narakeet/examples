@@ -1,0 +1,10 @@
+size: 720p
+# use vendor instead of audio within background to load one of the audio files provided
+# by video puppet directly -- no need to attach these files into your project
+background:
+  vendor: ukulele-1
+scenes:
+  - slide: Welcome to Video Puppet. This background music is provided by videopuppet directly 
+    duration: 2
+  - slide: You can mix background sound and narration
+    narration:  You can mix background sound and narration
