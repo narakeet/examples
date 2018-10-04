@@ -1,5 +1,4 @@
 size: 720p
-resourceDir: resources
 scenes:
 # use simple text as a title
   - slide: Hi there!

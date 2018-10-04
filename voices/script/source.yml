@@ -1,5 +1,4 @@
 size: 720p
-resourceDir: resources
 # to set a voice on the whole document, just use the voice property
 voice: William
 scenes:

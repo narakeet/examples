@@ -1,5 +1,4 @@
 size: 720p
-resourceDir: resources
 background:
     audio: 0ff22a15475e27fcc200f6d618a9-orig.wav
     volume: 0.3

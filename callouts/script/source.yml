@@ -1,5 +1,4 @@
 size: 720p
-resourceDir: resources
 scenes:
   - slide: Point out parts of a picture or video with callouts
     duration: 1

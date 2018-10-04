@@ -1,5 +1,4 @@
 size: 720p
-resourceDir: resources
 scenes:
 # just include a video and it will play entirely 
 # before moving on to the next scene

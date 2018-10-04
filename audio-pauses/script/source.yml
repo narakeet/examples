@@ -1,5 +1,4 @@
 size: 720p
-resourceDir: resources
 scenes:
   - image: london.jpg
     narration: |
