@@ -99,3 +99,8 @@ scenes:
         file: seaside.jpg
         position: bottom
       ```
+# put text on a video
+  - slide: 
+      text: Start counting!
+      theme: light
+    video: stopwatch.mp4
