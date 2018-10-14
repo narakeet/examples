@@ -7,13 +7,13 @@ scenes:
   - slide: ...but videos are not trimmed to match audio
     duration: 2
   - video: stopwatch.mp4
-    narration: One, Two 
+    narration: One, Two, Three.
   - slide: ... set sync:match to speed up a longer video to match an audio track
     duration: 2
   - video:
       file: stopwatch.mp4
       sync: match
-    narration: One, Two 
+    narration: One, Two, Three.
   - slide: ... sync:match also slows down a shorter video to match longer narration
     duration: 2
   - video:
@@ -33,3 +33,17 @@ scenes:
       sync: trim
       segment: 0 - 2
     narration: I hate it when people just keep on talking and don't know when to stop.
+  - slide: ... sync:loop will repeat a video when the audio is longer
+    duration: 2
+  - video:
+      file: stopwatch.mp4
+      sync: loop
+      segment: 0 - 2
+    narration: This video will loop to match the duration of my sentence, so I can speak for as long as I want.
+  - slide: ... sync:loop will repeat the audio when the video is longer
+    duration: 2
+  - video:
+      file: stopwatch.mp4
+      sync: loop
+    narration: One, Two, Three.
+

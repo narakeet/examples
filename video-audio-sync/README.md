@@ -15,6 +15,7 @@ Instead of specifying `video` directly with a filename, make it a key-value map 
 * `freeze`: (default) keeps the last video frame frozen to wait for audio to finish, but does not speed up or shorten the video if longer than audio
 * `match`: speed up or slow down the video to match the audio track length
 * `trim`: keep the original video speed, but stop the scene when either the video or the audio end. This will also cut off any remaining audio if the video is shorter.
+* `loop`: repeat either the video or the audio to match the longer asset duration
 
 ```yaml
 scenes:
