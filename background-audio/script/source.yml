@@ -8,7 +8,7 @@ scenes:
   - slide: |
       ```yaml
       background:
-        audio: 0ff22a15475e27fcc200f6d618a9-orig.wav
+        audio: sound.wav
         volume: 0.3
       ```
     narration: Add background sound easily to your videos by placing a background tag into the scenario header

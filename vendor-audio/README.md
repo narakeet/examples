@@ -30,6 +30,7 @@ scenes:
 * `ukulele-2` - Simpler easy-listening background, without the melody
 * `corporate-1` - A corporate sound for business presentations
 * `uplifting-1` - An uplifting electronic sound
+* `uplifting-2` - A more dynamic uplifting electronic sound
 
 ## Related examples
 
