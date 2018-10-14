@@ -1,0 +1,24 @@
+size: 720p
+scenes:
+  - slide: "size: cover"
+    duration: 1
+  - video:
+      file: birds.mp4
+      size: cover
+  - slide: "size: contain"
+    duration: 1
+  - video:
+      file: birds.mp4
+      size: contain
+  - slide: "size: fit"
+    duration: 1
+  - video:
+      file: birds.mp4
+      size: fit
+# mix size and segments
+  - slide: mix size and segments! 
+    duration: 1
+  - video:
+      file: birds.mp4
+      size: contain
+      segment: 1 - 2
