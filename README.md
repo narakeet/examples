@@ -23,3 +23,4 @@ This repository contains samples and examples for [Video Puppet](https://www.vid
 * [audio-video-sync](audio-video-sync/README.md): matching video to audio duration, slowing down or speeding up 
 * [video-sizing](video-sizing/README.md): resizing, padding and cropping videos
 * [video-segments](video-segments/README.md): extracting parts of video files into scenes, freezing stating or ending image
+* [transitions](transitions/README.md): creating transitions between scenes 
