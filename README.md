@@ -20,7 +20,7 @@ This repository contains samples and examples for [Video Puppet](https://www.vid
 
 * [slides](slides/README.md): generating slides from text 
 * [callouts](callouts/README.md): highlighting parts of images
-* [audio-video-sync](audio-video-sync/README.md): matching video to audio duration, slowing down or speeding up 
+* [video-audio-sync](audio-video-sync/README.md): matching video to audio duration, slowing down or speeding up 
 * [video-sizing](video-sizing/README.md): resizing, padding and cropping videos
 * [video-segments](video-segments/README.md): extracting parts of video files into scenes, freezing stating or ending image
 * [transitions](transitions/README.md): creating transitions between scenes 

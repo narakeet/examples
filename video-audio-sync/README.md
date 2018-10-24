@@ -23,6 +23,6 @@ scenes:
       this is a very long narration, so we'll get the video to 
       slow down so it can match the length of this talk.
   - video:
-    file: stopwatch.mp4
-    sync: match
+      file: stopwatch.mp4
+      sync: match
 ```
