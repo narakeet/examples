@@ -74,6 +74,32 @@ scenes:
       ```
   - image:
       position: top
+      file: paris.jpg
+    narration:
+      voice: Alain
+      text: >
+        Plus tard, cette société toujours plus puissante prit une force que le
+        temps lui avait préparée et qui parfois se trouva être à l'unisson du
+        pouvoir royal.
+    slide: |
+      ```yml
+      voice: Alain
+      ```
+  - image:
+      position: top
+      file: paris.jpg
+    narration:
+      voice: margot
+      text: >
+        Le moment de la plus grande influence des lettres sur la nation fut
+        celui où la littérature déserta les écoles, pour faire ses cours dans
+        les salons.
+    slide: |
+      ```yml
+      voice: Margot
+      ```
+  - image:
+      position: top
       file: ny.jpg
     # for SSML, wrap the narration into <speak></speak>
     narration: >

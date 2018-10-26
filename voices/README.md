@@ -45,10 +45,19 @@ The following voices are currently available:
   * Sarah
   * Jeff
   * Lisa
+* Australian English
+  * Kylie
+  * Bruce
+  * Kate
+  * Liam
 * German
   * Monika
   * Florian
   * Marlene
   * Helmut
-
+* French 
+  * Alain
+  * Margot
+  * Sophie
+  * Jean
 
