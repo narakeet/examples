@@ -11,18 +11,23 @@ Upload the [`script`](script) directory to a Video Puppet project. The main scri
 ## How it works
 
 
-Stage directions for narration are paragraphs with keywords such as `pause` in brackets. You can add a multi-paragraph narration and use the `pause` stage direction to stop the speech for a bit. For example:
+You can specify a pause in narration by turning the narration element from a string into an object, and providing the `pause` property. 
+
+```yml
+scenes:
+  - slide: only a pause
+    narration:
+      pause: 2
+```
+
+To insert a pause between sentences, turn the narration into an array of objects. You can then mix strings and pauses.
 
 ```yml
 scenes:
   - image: london.jpg
-    narration: |
-      This is the first sentence, and we'll pause for a bit after it.
-
-      (pause: 3)
-
-      This is the second sentence
+    narration: 
+      - This is the first sentence, and we'll pause for a bit after it.
+      - pause: 3
+      - This is the second sentence
 ```
-
-Note the pipe symbol `|` -- this is a way to create multi-line text in YAML while preserving line breaks.
 
