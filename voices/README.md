@@ -60,4 +60,8 @@ The following voices are currently available:
   * Margot
   * Sophie
   * Jean
+* Dutch
+  * Maartje
+* Swedish
+  * Ingrid
 
