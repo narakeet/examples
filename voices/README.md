@@ -64,4 +64,13 @@ The following voices are currently available:
   * Maartje
 * Swedish
   * Ingrid
+* Italian
+  * Mario
+  * Laura
+* Japanese
+  * Akira
+  * Yuriko
+* Korean
+  * Chae-Won
+  * Min-Ho
 
