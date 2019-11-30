@@ -100,6 +100,21 @@ scenes:
       ```
   - image:
       position: top
+      file: esp.jpg
+    narration:
+      voice: carmen
+      text: >
+        La filosofía de la periferia es, necesariamente, una filosofía de la
+        liberación. La filosofía de los centros de poder no es otra cosa que una
+        ontología que enuncia una mismidad: "El ser es, el no-ser no es", lo cual
+        significa que todo lo que esté fuera de las fronteras del ser, carece de
+        ser. 
+    slide: |
+      ```yml
+      voice: Carmen
+      ```
+  - image:
+      position: top
       file: ny.jpg
     # for SSML, wrap the narration into <speak></speak>
     narration: >

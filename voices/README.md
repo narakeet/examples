@@ -39,6 +39,7 @@ The following voices are currently available:
   * Charles
   * Carol
   * Elisabeth
+  * Brian
 * American English
   * Mike
   * Bill
@@ -60,6 +61,8 @@ The following voices are currently available:
   * Margot
   * Sophie
   * Jean
+* Spanish
+  * Carmen
 * Dutch
   * Maartje
 * Swedish
