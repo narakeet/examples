@@ -4,15 +4,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: videopuppet/build-video-github-action@test5
+    - uses: videopuppet/build-video-github-action@test6
       id: download
       with:
         source-path: hello-world/script/source.yml
         github-token: ${{ secrets.GITHUB_TOKEN }}
         api-url: https://ykrpzu47d4.execute-api.us-east-1.amazonaws.com/dev/video/build
-    - shell: bash
-      run: curl "${{ steps.download.outputs.videoUrl }}" -o result.mp4
     - uses: actions/upload-artifact@v1
       with:
         name: video
-        path: result.mp4
+        path: "${{ steps.download.outputs.video-file }}"
