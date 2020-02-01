@@ -1,4 +1,4 @@
-name: CI
+name: Make videos
 on: [push]
 jobs:
   build:
