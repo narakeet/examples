@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: videopuppet/build-video-github-action@v2
+    - uses: videopuppet/build-video-github-action@v3
       with:
         source-path: hello-world/src/script.yml
         github-token: ${{ secrets.GITHUB_TOKEN }}
