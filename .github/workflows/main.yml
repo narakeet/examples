@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: videopuppet/build-video-github-action@test7
+    - uses: videopuppet/build-video-github-action@test8
       id: download
       with:
         source-path: hello-world/script/source.yml
