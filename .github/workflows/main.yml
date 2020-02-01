@@ -10,7 +10,7 @@ jobs:
         source-path: hello-world/script/source.yml
         github-token: ${{ secrets.GITHUB_TOKEN }}
         videopuppet-api-key: ${{ secrets.VIDEOPUPPET_API_KEY }}
-        api-url: https://devapi.videopuppet.com
+        api-url: https://devapi.videopuppet.com/video/build
     - uses: actions/upload-artifact@v1
       with:
         name: video
