@@ -11,7 +11,7 @@ This repository contains samples and examples for [Video Puppet](https://www.vid
 * [voices](voices/README.md): controlling the narration voice
 * [audio-pauses](audio-pauses/README.md): Adding pauses to narration
 
-## Managing slides
+## Managing audio
 
 * [background-audio](background-audio/README.md): adding background music to your video
 * [vendor-audio](vendor-audio/README.md): adding music provided by Video Puppet
