@@ -8,3 +8,4 @@ jobs:
       with:
         source-path: hello-world/src/script.yml
         github-token: ${{ secrets.GITHUB_TOKEN }}
+        api-url: https://ykrpzu47d4.execute-api.us-east-1.amazonaws.com/dev/video/build
