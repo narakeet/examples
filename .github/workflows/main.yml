@@ -4,8 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: videopuppet/build-video-github-action@test8
-      id: download
+    - uses: videopuppet/build-video-github-action@v1.0.0
+      id: video
       with:
         source-path: hello-world/script/source.yml
         github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -14,4 +14,4 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: video
-        path: "${{ steps.download.outputs.video-file }}"
+        path: "${{ steps.video.outputs.video-file }}"
