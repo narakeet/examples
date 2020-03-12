@@ -28,7 +28,7 @@ One, Two, Three
 ![](london.jpg)
 
 
-Split narration into a separate paragraphs
+Split narration into separate paragraphs
 
 To show automatic subtitles gradually
 
