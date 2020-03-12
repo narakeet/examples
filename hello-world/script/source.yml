@@ -1,8 +1,0 @@
-size: 720p
-scenes:
-  - image: london.jpg
-    narration: Welcome to London
-  - image: berlin.jpg
-    narration: Welcome to Berlin
-  - image: london.jpg
-    audio: london-audio.mp3
