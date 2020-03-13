@@ -1,55 +1,71 @@
 ---
 size: 720p
 ---
-<!-- seaside.jpg is 1280x1600, video is 720p (1280×720) so the image needs to be resized for the video -->
+<!-- riley-wnmIcXyvBlw-unsplash.jpg is 2172x3260, video is 720p (1280×720) so the image needs to be resized for the video -->
 
-![](seaside.jpg)
+![](riley-wnmIcXyvBlw-unsplash.jpg)
 
 ```
 ![](file)
 ```
 
+(pause: 2)
+
 ---
 
-![contain](seaside.jpg)
+![contain](riley-wnmIcXyvBlw-unsplash.jpg)
 
 ```
 ![contain](file)
 ```
 
+(pause: 2)
+
 ---
 
-![fit](seaside.jpg)
+![fit](riley-wnmIcXyvBlw-unsplash.jpg)
 
 ```
 ![fit](file)
 ```
 
+(pause: 2)
+
 ---
 
-![left](seaside.jpg)
+![left](riley-wnmIcXyvBlw-unsplash.jpg)
 
 ```
 ![left](file)
 ```
+
+(pause: 2)
+
 ---
 
-![right](seaside.jpg)
+![right](riley-wnmIcXyvBlw-unsplash.jpg)
 
 ```
 ![right](file)
 ```
+
+(pause: 2)
+
 ---
 
-![top](seaside.jpg)
+![top](riley-wnmIcXyvBlw-unsplash.jpg)
 
 ```
 ![top](file)
 ```
+
+(pause: 2)
+
 ---
-![bottom](seaside.jpg)
+![bottom](riley-wnmIcXyvBlw-unsplash.jpg)
 
 ```
 ![bottom](file)
 ```
 
+(pause: 2)
