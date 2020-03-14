@@ -1,4 +1,4 @@
-# Video Puppet voice control example
+# Controling narration voices
 
 This example shows how to set voices for different scenes in Video Puppet. 
 
@@ -6,29 +6,29 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.yml`](script/source.yml).
+Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
-To set the voice for the whole document, use a `voice` property on the top level, such as this:
+VideoPuppet script files can include an optional header, setting global properties. The header starts with the scene separator (`---`) in the first line,
+and includes a key-value map separated by colons (technically, it's a YAML block). For example, the following header sets the size and the voice for the whole document:
 
 ```yml
+---
 size: 720p
 voice: William
-scenes:
-# your scenes
+---
 ```
 
-To set the voice for an individual scene, make the scene `narration` element a key-value map, then use the `voice` property of that object. Move the contents of the narration into the `text` sub-element:
+You can modify individual scenes by including a stage direction. Stage directions are paragraphs enclosed in brackets. For example, the following stage direction sets `Elisabeth` as the voice for the scene:
 
-```yml
-scenes:
-  - image: london.jpg
-    narration:
-      text: Passengers will instead be boarding a plane belonging to a Belgian budget airline.
-      voice: Elisabeth
+
+```md
+(voice: Elisabeth)
+
+Passengers booked to fly British Airways to Cairo this week, will 
+instead be boarding a plane belonging to a Belgian budget airline.
 ```
-
 
 ## Available voices
 
@@ -46,6 +46,7 @@ The following voices are currently available:
   * Sarah
   * Jeff
   * Lisa
+  * Joanna
 * Australian English
   * Kylie
   * Bruce
@@ -77,3 +78,7 @@ The following voices are currently available:
   * Chae-Won
   * Min-Ho
 
+
+## Next steps
+
+Check out the [pronunciation](../pronunciation/README.md) example for information on how to add pauses and control pronunciation.

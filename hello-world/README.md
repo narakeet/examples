@@ -6,60 +6,43 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.yml`](script/source.yml).
+Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
 
-A Video Puppet script is a simple key-value file. You can use YAML or JSON. The simplest structure has a:
-* `size` property specifying the dimensions of the video (`720p` is a standard size for 16x9 videos usual on Youtube and social networks, but you can also use values in the `Width x Height` format, for example `800x600`)
-* a list of one or more `scenes`, each containing assets to show.
+Video Puppet creates a video from one or scenes. Each scene can include videos, images, audio or narration. 
 
-Here is a very simple example, adding just an image to the scene:
+In the Markdown script file format, you can add images or videos by using the standard Markdown syntax (`![](file)`). 
 
-```yaml
-size: 720p
-scenes:
-  - image: london.jpg
+Video Puppet automatically generates narration from scene text. The following scene will include an image, and automatically generated voice narration:
+
+```md
+![](london.jpg)
+
+Welcome to London
 ```
 
-Video Puppet can automatically generate narration from text, using a life-like audio track:
+To add more scenes, use three or more dashes (`---`) as a separator. The following script file creates two scenes:
 
-```yaml
-size: 720p
-scenes:
-  - image: london.jpg
-    narration: Welcome to London
+```md
+![](london.jpg)
+
+Welcome to London
+
+---
+
+![](berlin.jpg)
+
+Welcome to Berlin
 ```
 
-Add additional scenes by creating more elements in the list:
+Instead of automatically generated narration, you can add your own audio files, with recorded voice, music or something else to play during a scene. To do so, just add `(audio: file)` in a separate paragraph. For example, this scene will show an image from `london.jpg` and play the audio from `london-audio.mp3`:
 
-```yaml
-size: 720p
-scenes:
-  - image: london.jpg
-    narration: Welcome to London
-  - image: berlin.jpg
-    narration: Welcome to Berlin
+```md
+![](london.jpg)
+
+(audio: london-audio.mp3)
 ```
 
-If you want to use your own voice, just add the `audio` sub-property:
-  
-```yaml
-size: 720p
-scenes:
-  - image: london.png
-    audio: london-audio.mp3
-```
-
-You can also provide videos as scenes:
-
-```yaml
-size: 720p
-scenes:
-  - video: my-first-scene.mp4
-  - video: my-second-scene.mp4
-```
-
-Check out the [Video Segments](../video-segments) example to see how to extract just parts of a video from a file.
-
+Next, check out the [voices](../voices/README.md) example to see how to control the narration voice, or the [subtitles](../subtitles/README.md) example for information on how to generate subtitles for your video.

@@ -9,7 +9,7 @@ This repository contains samples and examples for [Video Puppet](https://www.vid
 ## Managing narration
 
 * [voices](voices/README.md): controlling the narration voice
-* [audio-pauses](audio-pauses/README.md): Adding pauses to narration
+* [pronunciation](pronunciation/README.md): controlling pronunciation, including adding pauses
 * [subtitles](subtitles/README.md): adding subtitles
 
 ## Managing audio
