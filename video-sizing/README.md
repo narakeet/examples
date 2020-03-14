@@ -6,20 +6,27 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.yml`](script/source.yml).
+Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
-Add a `size` to the `video` property of your scene, and set it to one of the following three values:
+When adding a video to a scene, Video Puppet will automatically resize it to fit the target video format. You can control resizing by adding an option to the square brackets when setting the video. For example, to shrink and pad a larger video to fit the smaller target size, use the `contain` option:
+
+```md
+![contain](birds.mp4)
+```
+
+Alternatively, you can provide a `video` stage direction in brackets, and add the `size` option in subproperties. When adding subproperties, indent them with two spaces or a tab. (Technically, stage directions are in YAML format).
+
+```
+(video:
+  file: birds.mp4
+  size: contain)
+```
+
+## Available sizing properties
 
 * `fit`: video will be rescaled without keeping the proportions
 * `contain`: video will be completely visible, and padded if necessary with black bars to fit the output frame
 * `cover`: (default) video will be scaled so it completely covers the output frame, and cropped if necessary to keep the proportions
 
-```yaml
-scenes:
-  - video: 
-      file: birds.mp4
-      size: contain
-
-```

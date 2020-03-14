@@ -6,28 +6,42 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.yml`](script/source.yml).
+Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
-Add a `transition` property to the scene, and set the `type` and `duration` sub-properties. 
+To set transitions between scenes for the whole video, add the transition property in the script header. The following header will set a half-second wipe transition between the scenes.
 
-Duration is a number, the duration of the transition in seconds, and must be between 0.1 and 60.
+```
+---
+size: 720p
+transition:
+  type: wipe
+  duration: 0.5
+---
+```
 
-Currently supported types are:
+You can also use a shortcut with the transition name and duration in a single line. For example, the following header will set a two second crossfade transition:
+```
+---
+size: 720p
+transition: crossfade 2
+---
+```
 
-* `crossfade`: fade the last frame of the scene into the first frame of the next scene 
-* `wipe`: horizontal overlay from the left 
+
+To set a transition for an individual scene, add it using the `transition` stage direction
+
+
+```
+![](london.jpg)
+
+(transition: crossfade 2)
+```
 
 Note that the transition property combines the previous scene with the current scene, so any transition on the first scene is ignored.
 
-```yaml
-scenes:
-  - video: 
-      file: birds.mp4
-  - video: 
-      file: stopwatch.mp4
-    transition:
-      type: crossfade
-      duration: 0.5
-```
+## Available transition options
+
+* `crossfade`: fade the last frame of the scene into the first frame of the next scene 
+* `wipe`: horizontal overlay from the left 

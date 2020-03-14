@@ -6,7 +6,7 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.yml`](script/source.md).
+Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 

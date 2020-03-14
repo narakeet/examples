@@ -6,63 +6,77 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.yml`](script/source.yml).
+Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
-You can use the `slide` property of a scene to create a textual slide:
+You can use Markdown code blocks (fenced with three backticks or three tildas) to create a textual slide:
 
-```yaml
-scenes:
-  - slide: Let's talk about penguins
+~~~
+```
+Hi there!
+```
+~~~
+
+In case there is also an image or a video in the same scene, Video Puppet will show the slide over the scene, with a dark backdrop shadow to create contrast between the text and the background. This works well if the image or video behind the slide is mostly in light colours. 
+
+
+For darker images or videos,  set the slide theme to `light` using the theme stage direction, to switch to lighter colors in the slide.
+
+~~~
+(theme: light)
+
+
+```
+Start counting!
 ```
 
-If you also have an image in the same scene, Video Puppet will darken it a bit to show the text more clearly:
+![](stopwatch.mp4)
 
-```yaml
-scenes:
-  - slide: Let's talk about penguins
-    image: penguin.jpg
+~~~
+
+
+If there is no audio or narration in the slide, the standard duration on screen will be 1 second. To make the scene longer, add a `duration` stage direction, and specify the number of seconds to keep the text on screen.
+
+
+~~~
+```
+Penguins!
 ```
 
-If there is no audio or narration in the slide, the standard duration on screen will be 1 second. To make the scene longer, add a `duration` property, and specify the number of seconds to keep the text on screen.
+![cover](seaside.jpg)
 
-```yaml
-scenes:
-  - slide: Let's talk about penguins
-    image: penguin.jpg
-    duration: 5
+(duration: 2)
+~~~
+
+## Rich text slides
+
+You can render rich text on slides by using markdown syntax, and marking the slide as markdown content by appending `md` after the opening code fence:
+
+~~~
+```md
+# Heading 1
+## Heading 2
+
+* bullets are left-aligned
+* bullet 2
+  * sub-bullet
 ```
+~~~
 
-You can easily add multi-line text and style it in Markdown. Remember to use the pipe symbol (`|`) to signal multi-line text where line breaks are preserved:
+## Syntax highlighting
 
-```yaml
-scenes:
-  - duration: 2
-    slide: |
-      # Heading 1
-      ## Heading 2
-      
-      * bullets are left-aligned
-      * bullet 2
-        * sub-bullet
-```
-
-Syntax highlighting also works, for example this is how to automatically highlight CSS syntax:
+If you want to include code snippets as slides, Video Puppet will automatically support syntax highlighting as long as you specify the language after the opening code fence.
 
 ~~~yaml
-scenes:
- - slide: |
-      Syntax highlighting
-      ``` css
-        .container {
-          align-items: center;
-          display: flex;
-          justify-content: center;
-          height: 100%;
-          width: 100%;
-          padding: 40px;
-        }
-      ```
-    duration: 2
+``` css
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+  }
+```
 ~~~

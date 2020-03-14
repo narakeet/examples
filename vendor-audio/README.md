@@ -6,7 +6,7 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.yml`](script/source.yml).
+Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
@@ -16,12 +16,12 @@ You can also set the `volume` sub-property, controlling the relative volume of t
 
 
 ```yml
+---
 size: 720p
 background:
   vendor: ukulele-1
   volume: 0.5
-scenes:
-  ...
+---
 ```
 
 ## Supported audio names
@@ -34,4 +34,4 @@ scenes:
 
 ## Related examples
 
-You can use your own background sounds Check out the [Background Audio Example](../background-audio).
+You can use your own background sounds Check out the [Background Audio Example](../background-audio/README.md).
