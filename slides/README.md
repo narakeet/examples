@@ -68,15 +68,26 @@ You can render rich text on slides by using markdown syntax, and marking the sli
 
 If you want to include code snippets as slides, Video Puppet will automatically support syntax highlighting as long as you specify the language after the opening code fence.
 
-~~~yaml
-``` css
-  .container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    padding: 40px;
-  }
+~~~
+```css
+.container {
+  align-items: center;
+  display: flex;
+}
 ```
 ~~~
+
+## Controlling font size
+
+By default, Video Puppet sets the font for slides to relatively large (50px) to show clearly on smaller screens. For slides with a lot of text, you can set the size using the `(font-size)` stage direction. Set the value to an integer number of pixels.
+
+~~~
+(font-size: 20)
+
+```css
+.container {
+  align-items: center;
+}
+```
+~~~
+

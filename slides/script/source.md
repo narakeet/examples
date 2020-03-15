@@ -6,7 +6,7 @@ Hi there!
 
 ---
 
-(pause: 2)
+(duration: 2)
 
 <!-- set the block language to md to render markdown on screen -->
 ```md
@@ -33,7 +33,29 @@ Hi there!
 ```
 
 
-(pause: 2)
+(duration: 2)
+
+---
+
+
+(font-size: 20)
+
+<!-- set the font size using the (font-size) stage direction -->
+
+```css
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+}
+```
+
+> smaller font size using (font-size: 20)
+
+(duration: 2)
 
 ---
 
@@ -45,7 +67,7 @@ Penguins!
 
 ![cover](seaside.jpg)
 
-(pause: 2)
+(duration: 2)
 
 ---
 
