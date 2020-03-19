@@ -52,22 +52,18 @@ The following voices are currently available:
   * Bruce
   * Kate
   * Liam
-* German
-  * Monika
-  * Florian
-  * Marlene
-  * Helmut
+* Dutch
+  * Maartje
 * French 
   * Alain
   * Margot
   * Sophie
   * Jean
-* Spanish
-  * Carmen
-* Dutch
-  * Maartje
-* Swedish
-  * Ingrid
+* German
+  * Monika
+  * Florian
+  * Marlene
+  * Helmut
 * Italian
   * Mario
   * Laura
@@ -77,7 +73,13 @@ The following voices are currently available:
 * Korean
   * Chae-Won
   * Min-Ho
-
+* Polish
+  * Justyna
+  * Tomasz
+* Spanish
+  * Carmen
+* Swedish
+  * Ingrid
 
 ## Next steps
 
