@@ -32,54 +32,7 @@ instead be boarding a plane belonging to a Belgian budget airline.
 
 ## Available voices
 
-The following voices are currently available:
-
-* British English
-  * William
-  * Charles
-  * Carol
-  * Elisabeth
-  * Brian
-* American English
-  * Mike
-  * Bill
-  * Sarah
-  * Jeff
-  * Lisa
-  * Joanna
-* Australian English
-  * Kylie
-  * Bruce
-  * Kate
-  * Liam
-* Dutch
-  * Maartje
-* French 
-  * Alain
-  * Margot
-  * Sophie
-  * Jean
-* German
-  * Monika
-  * Florian
-  * Marlene
-  * Helmut
-* Italian
-  * Mario
-  * Laura
-* Japanese
-  * Akira
-  * Yuriko
-* Korean
-  * Chae-Won
-  * Min-Ho
-* Polish
-  * Justyna
-  * Tomasz
-* Spanish
-  * Carmen
-* Swedish
-  * Ingrid
+Check out the Video Puppet [Available Voices](https://www.videopuppet.com/docs/voices/) page for an up-to-date list of voices and to try them out.
 
 ## Next steps
 
