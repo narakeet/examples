@@ -1,6 +1,5 @@
 ---
-background:
-  vendor: uplifting-2
+background: uplifting-2
 ---
 
 <!--
@@ -18,8 +17,7 @@ directly
 ---
 
 ```yml
-background:
-  vendor: uplifting-2
+background: uplifting-2
 ```
 
 (pause: 3)

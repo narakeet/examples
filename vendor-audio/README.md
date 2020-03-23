@@ -10,17 +10,16 @@ Upload the [`script`](script) directory to a Video Puppet project. The main scri
 
 ## How it works
 
-Similar to adding your own background music to the video, provide a `background` top-level property. Instead of the `audio`  subproperty, use a `vendor` subproperty and choose one of the supported background sounds.
+Similar to adding your own background music to the video, provide a `background` top-level property and specify one of the provided audio names (see the list below).
 
-You can also set the `volume` sub-property, controlling the relative volume of the sound in the file. The value should be a number reflecting the multiplier for the original volume (`1` is default, equal to the original volume).
+You can also set the `volume` after a space. The value should be a number reflecting the multiplier for the original volume (`1` is default, equal to the original volume).
 
+The following example will include the standard `ukulele-1` background, at half the normal volume.
 
 ```yml
 ---
 size: 720p
-background:
-  vendor: ukulele-1
-  volume: 0.5
+background: ukulele-1 0.5
 ---
 ```
 

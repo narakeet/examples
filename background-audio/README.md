@@ -10,16 +10,25 @@ Upload the [`script`](script) directory to a Video Puppet project. The main scri
 
 ## How it works
 
-To add background music to your video, just provide a `background` top-level property in the page header. You can specify an audio file, or a combination of an audio file and volume (in which case, use the `audio` and `volume` subproperties).
+To add background music to your video, just provide a `background` top-level property in the page header. You can specify an audio file, or a combination of an audio file and volume separated by a space. The value should be a number reflecting the multiplier for the original volume (`1` is default, equal to the original volume).
 
-You can use WAV and MP3 files. The sound will be automatically repeated to match the total duration of the video.
+You can use WAV, MP3 and M4A files. The sound will be automatically repeated to match the total duration of the video.
+
+The following header will include `sound.wav` at full volume:
 
 ```yml
 ---
 size: 720p
-background:
-    audio: 0ff22a15475e27fcc200f6d618a9-orig.wav
-    volume: 0.3
+background: sound.wav
+---
+```
+
+The following examples will include `sound.wav` at half volume:
+
+```yml
+---
+size: 720p
+background: sound.wav 0.5
 ---
 ```
 
