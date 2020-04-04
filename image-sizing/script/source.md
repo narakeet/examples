@@ -33,26 +33,6 @@ size: 720p
 
 ---
 
-![left](riley-wnmIcXyvBlw-unsplash.jpg)
-
-```
-![left](file)
-```
-
-(pause: 2)
-
----
-
-![right](riley-wnmIcXyvBlw-unsplash.jpg)
-
-```
-![right](file)
-```
-
-(pause: 2)
-
----
-
 ![top](riley-wnmIcXyvBlw-unsplash.jpg)
 
 ```
