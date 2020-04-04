@@ -26,7 +26,5 @@ Alternatively, you can provide a `video` stage direction in brackets, and add th
 
 ## Available sizing properties
 
-* `fit`: video will be rescaled without keeping the proportions
-* `contain`: video will be completely visible, and padded if necessary with black bars to fit the output frame
-* `cover`: (default) video will be scaled so it completely covers the output frame, and cropped if necessary to keep the proportions
+Check out [Scene videos](https://videopuppet.com/docs/format/#videos) for more information on scene video sizing options
 

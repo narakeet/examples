@@ -23,20 +23,7 @@ Without additional options, Video Puppet will crop a large image around the cent
 ![left](file.png)
 ```
 
-## Available sizing options
-
-* `fit`: image will be rescaled without keeping the proportions
-* `contain`: image will be completely visible, and padded if necessary with black bars to fit the output frame
-* `cover`: (default) image will be scaled so it completely covers the output frame, and cropped if necessary to keep the proportions
-
-## Available position options
-
-* `center`: (default) crop image around the vertical and horizontal middle
-* `top-left`: crop the image so the top-left corner aligns with the top-left of the video
-* `left`: crop the image so the left edge of image aligns with the left edge of the video, and center image vertically
-* `right`: crop the image so the right edge of image aligns with the right edge of the video, and center image vertically
-* `top`: crop the image so the top edge of image aligns with the top edge of the video, and center image horizontally
-* `bottom`: crop the image so the bottom edge of image aligns with the bottom edge of the video, and center image horizontally
+For available sizing and position options, check out [Scene Image](/docs/format/#images) documentation.
 
 
 
