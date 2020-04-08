@@ -11,7 +11,7 @@ Upload the [`script`](script) directory to a Video Puppet project. The main scri
 ## How it works
 
 
-You can use the standard markdown emphasis or strikethroughs to add emphasis or reduce importance for a specific sentence, and use stage directions such as `pause`, `voice-volume` or `voice-emphasis` to control the pronunciation. Check out the [Controlling pronunciation reference](https://videopuppet.com/docs/format/#controlling-pronunciation) for more information.
+You can use the standard markdown emphasis or strikethroughs to add emphasis or reduce importance for a specific sentence, and use stage directions such as `pause`, `voice-volume`, `voice-speed` or `voice-emphasis` to control the pronunciation. Check out the [Controlling pronunciation reference](https://videopuppet.com/docs/format/#controlling-pronunciation) for more information.
 
 You can also use [SSML](https://en.wikipedia.org/wiki/Speech_Synthesis_Markup_Language) markup, and wrap the narration into `<speak></speak>` tags. For example, the following scene sets a moderate emphasis using SSML.
 

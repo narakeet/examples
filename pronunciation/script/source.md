@@ -40,7 +40,7 @@ This is more important.
 
 ![cover](london.jpg)
 
-I'm speaking at normally.
+I'm speaking normally.
 
 (voice-volume: soft)
 
@@ -49,6 +49,20 @@ I'm speaking softly.
 (voice-volume: loud)
 
 Now I'm loud.
+
+---
+
+![cover](london.jpg)
+
+I'm speaking normally.
+
+(voice-speed: slow)
+
+I'm speaking slowly.
+
+(voice-speed: fast)
+
+Now I'm fast.
 
 ---
 
