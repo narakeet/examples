@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Waltograph UI';
+  src: url('waltographUI.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Waltograph UI';
+}

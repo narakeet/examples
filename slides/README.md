@@ -21,7 +21,7 @@ Hi there!
 In case there is also an image or a video in the same scene, Video Puppet will show the slide over the scene, with a dark backdrop shadow to create contrast between the text and the background. This works well if the image or video behind the slide is mostly in light colours. 
 
 
-For darker images or videos,  set the slide theme to `light` using the theme stage direction, to switch to lighter colors in the slide.
+For darker images or videos,  set the slide theme to `light` using the theme stage direction, to switch to lighter colors in the slide without a backdrop.
 
 ~~~
 (theme: light)
@@ -91,3 +91,7 @@ By default, Video Puppet sets the font for slides to relatively large (50px) to 
 ```
 ~~~
 
+
+## Customising the slide visuals
+
+See the [Slide CSS Theming](../slide-css-theming/README.md) example for customising slide visuals using CSS.

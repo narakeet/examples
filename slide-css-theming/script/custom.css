@@ -1,0 +1,24 @@
+body {
+  color: #975c51;
+  font-size: 30px;
+	background: radial-gradient(#975c51 2px, transparent 3px), radial-gradient(#975c51 2px, transparent 3px), #fff;
+  background-position: 0 0, 20px 20px;
+  background-size: 40px 40px;
+}
+
+h1 {
+  color: #839751;
+  text-decoration: underline;
+}
+
+ul {
+  font-weight: bold;
+  background-color: white;
+  display: block;
+  border: 3px dashed #975c51;
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+}
+ul li {
+  padding: 1ex;
+}
