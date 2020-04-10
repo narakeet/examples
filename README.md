@@ -20,7 +20,7 @@ This repository contains samples and examples for [Video Puppet](https://www.vid
 ## Managing visuals
 
 * [slides](slides/README.md): generating slides from text 
-* [slides-css-theming](slides/README.md): customising slide themes using CSS
+* [slide-css-theming](slide-css-theming/README.md): customising slide themes using CSS
 * [callouts](callouts/README.md): highlighting parts of images
 * [video-audio-sync](video-audio-sync/README.md): matching video to audio duration, slowing down or speeding up 
 * [video-sizing](video-sizing/README.md): resizing, padding and cropping videos
