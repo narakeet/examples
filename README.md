@@ -27,3 +27,4 @@ This repository contains samples and examples for [Video Puppet](https://www.vid
 * [image-sizing](image-sizing/README.md): resizing, padding and cropping images 
 * [video-segments](video-segments/README.md): extracting parts of video files into scenes, freezing stating or ending image
 * [transitions](transitions/README.md): creating transitions between scenes 
+* [gifs](gifs/README.md): using animated GIFs
