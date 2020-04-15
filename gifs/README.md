@@ -34,4 +34,4 @@ To loop a GIF without any narration, or for longer than the duration of the audi
 
 ## Supported synchronisation options
 
-Check out [Scene videos](https://videopuppet.com/docs/format/#videos) for more information on scene video synchronization options
+Check out [Using Animated GIFs](https://videopuppet.com/docs/format/#using-animated-gifs) for more information on scene synchronization options.
