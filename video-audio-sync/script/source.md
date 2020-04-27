@@ -65,9 +65,18 @@ This video will loop to match the duration of my sentence, so I can speak for as
 
 ---
 
-> ... sync:loop will repeat the audio when the video is longer
+> ... sync:loop will not repeat the audio when the video is longer
 
 ![loop](stopwatch.mp4)
+
+One, Two, Three.
+
+
+---
+
+> ... sync:loop-audio will repeat the audio when the video is longer
+
+![loop-audio](stopwatch.mp4)
 
 One, Two, Three.
 
