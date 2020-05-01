@@ -16,6 +16,7 @@ This repository contains samples and examples for [Video Puppet](https://www.vid
 
 * [background-audio](background-audio/README.md): adding background music to your video
 * [vendor-audio](vendor-audio/README.md): adding music provided by Video Puppet
+* [video-volume](video-volume/README.md): manipulate the volume of embedded video resources
 
 ## Managing visuals
 
