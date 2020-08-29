@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('PermanentMarker-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Permanent Marker';
+}
+ul, li {
+  font-family: Arial;
+  font-size: 50px;
+}
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: black;
+}
+
