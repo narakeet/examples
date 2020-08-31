@@ -25,17 +25,11 @@ In this video, we'll show you how to deploy serverless components.
 First, load up the `SAR` console. Search for Serverless Application 
 repository in the main service list.
 
-(video:
-  file: screencast.mp4
-  segment: 00-08
-  sync: match)
+![00-08 match](screencast.mp4)
 
 ---
 
-(video:
-  file: screencast.mp4
-  segment: 10-14.5
-  sync: freeze)
+![10-14.5](screencast.mp4)
 
 When the `SAR` console loads, click the available applications link in the left-hand menu. 
 
@@ -47,10 +41,7 @@ Use the search box to quickly find an interesting component.
 
 For example, type `ffmpeg` to find components that can help with video conversion.
 
-(video:
-  file: screencast.mp4
-  segment: 14.5-17
-  sync: freeze)
+![14.5-17](screencast.mp4)
 
 AWS does not run a full security check on these components, so you have to be a bit careful about what you install. 
 
@@ -59,10 +50,7 @@ They do have a verified author program, which at least gives you some peace of m
 ---
 
 
-(video:
-  file: screencast.mp4
-  segment: 17-18
-  sync: freeze)
+![17-18](screencast.mp4)
 
 (callout:
   type: rectangle
@@ -76,10 +64,7 @@ For example, the `ffmpeg` lambda layer component was published by a verified aut
 ---
 
 
-(video:
-  file: screencast.mp4
-  segment: 17-21
-  sync: match)
+![17-21 match](screencast.mp4)
 
 Click the application name to see the details.
 
@@ -87,10 +72,7 @@ Click the application name to see the details.
 
 (transition: wipe 0.2)
 
-(video:
-  file: screencast.mp4
-  segment: 25-28
-  sync: match)
+![25-28 match](screencast.mp4)
 
 Once the page loads, scroll all the way to the bottom to 
 find the Deploy button.
@@ -99,10 +81,7 @@ find the Deploy button.
 
 Click the button to install the component. This can take a while, depending on what you install.
 
-(video:
-  file: screencast.mp4
-  segment: 29-32
-  sync: match)
+![29-32 match](screencast.mp4)
 
 ---
 
@@ -110,42 +89,32 @@ Click the button to install the component. This can take a while, depending on w
 
 Eventually you'll see a screen with the application details. Click the Deployments tab in the middle.
 
-(video:
-  file: screencast.mp4
-  segment: 45-52
-  sync: match)
+
+![45-52 match](screencast.mp4)
 
 ---
 
 
 `SAR` components are just CloudFormation stacks, and you can easily see the resources of the application.
 
-(video:
-  file: screencast.mp4
-  segment: 52-55)
+![52-55](screencast.mp4)
 
 ---
+
+![55-57](screencast.mp4)
 
 Find the CloudFormation stack link at the top of the deployments tab, and click it.
 
-(video:
-  file: screencast.mp4
-  segment: 55-57)
 
 ---
 
-(video:
-  file: screencast.mp4
-  segment: 01:00-01:01
-  sync: freeze)
+![01:00-01:01](screencast.mp4)
 
 You'll see the standard CloudFormation stack web page. Open the Resources tab.
 
 ---
 
-(video:
-  file: screencast.mp4
-  segment: 01:09-01:13)
+![01:09-01:13](screencast.mp4)
 
 Here you'll find a list of all the resources in the `SAR` component. In this case, you can find
 the `ARN` of the deployed layer, ready to use in your Lambda functions.
@@ -155,7 +124,6 @@ the `ARN` of the deployed layer, ready to use in your Lambda functions.
 ![trim](intro.mp4)
 
 (pause: 1)
-
 
 (font-size: 30)
 
@@ -188,7 +156,7 @@ and the video was automatically composed from screen grabs.
 * Edit videos as easily as editing text
 ```
 
-![loop](intro.mp4)
+![trim](intro.mp4)
 
 Stop wasting time on recording voice, synchronising picture with sound and adding subtitles.
 
