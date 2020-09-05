@@ -1,4 +1,4 @@
-# Video Puppet transitions example 
+# Narakeet transitions example 
 
 This example shows how to automatically apply transitions to video clips.
 
@@ -6,7 +6,7 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 

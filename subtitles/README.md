@@ -1,10 +1,10 @@
 # Adding subtitles
 
-This example shows how to add subtitles to Video Puppet scenes.
+This example shows how to add subtitles to Narakeet scenes.
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
@@ -21,9 +21,9 @@ You can also explicitly set the subtitles for a scene using Markdown block quote
 
 ```md
 
-> Video Puppet will show this 
+> Narakeet will show this 
 
-Video Puppet will read this
+Narakeet will read this
 
 ```
 

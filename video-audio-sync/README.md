@@ -1,4 +1,4 @@
-# Synchronising audio and video using Video Puppet  
+# Synchronising audio and video using Narakeet  
 
 This example shows how to automatically adjust a scene duration with a video and audio track. 
 
@@ -6,7 +6,7 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
@@ -26,4 +26,4 @@ Alternatively, you can provide a `video` stage direction, and specify the `sync`
 
 ## Supported synchronisation options
 
-Check out [Scene videos](https://videopuppet.com/docs/format/#videos) for more information on scene video sizing options
+Check out [Scene videos](https://www.narakeet.com/docs/format/#videos) for more information on scene video sizing options

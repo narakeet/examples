@@ -1,12 +1,12 @@
-# Video Puppet background sounds example 
+# Narakeet background sounds example 
 
-This example shows how to add a background audio to Video Puppet. 
+This example shows how to add a background audio to Narakeet. 
 
 Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
@@ -34,4 +34,4 @@ background: sound.wav 0.5
 
 ## Related examples
 
-You can use some royalty-free sounds provided by Video Puppet directly without uploading your own files. Check out the [Vendor Audio Example](../vendor-audio/README.md).
+You can use some royalty-free sounds provided by Narakeet directly without uploading your own files. Check out the [Vendor Audio Example](../vendor-audio/README.md).

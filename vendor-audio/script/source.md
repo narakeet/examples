@@ -3,7 +3,7 @@ background: uplifting-2
 ---
 
 <!--
-use vendor instead of audio within background to load one of the audio files provided by video puppet directly. there is no need to attach these files into your project
+use vendor instead of audio within background to load one of the audio files provided by Narakeet directly. there is no need to attach these files into your project
 -->
 
 ```md

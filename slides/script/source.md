@@ -1,4 +1,4 @@
-<!-- Video Puppet will show fenced code blocks as slides -->
+<!-- Narakeet will show fenced code blocks as slides -->
 
 ```
 Hi there!
@@ -59,7 +59,7 @@ Hi there!
 
 ---
 
-<!-- video puppet shows slides over images -->
+<!-- Narakeet shows slides over images -->
 
 ```
 Penguins!
@@ -75,7 +75,7 @@ Penguins!
 
 (theme: light)
 
-<!-- video puppet shows slides over videos -->
+<!-- Narakeet shows slides over videos -->
 
 ```
 Start counting!

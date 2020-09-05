@@ -1,12 +1,12 @@
-# Video Puppet call-outs example 
+# Narakeet call-outs example 
 
-This example shows how to add call-outs to highlight important parts of a slide in Video Puppet. 
+This example shows how to add call-outs to highlight important parts of a slide in Narakeet. 
 
 Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 

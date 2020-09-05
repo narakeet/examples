@@ -1,10 +1,16 @@
-# Video Puppet Examples
+# Narakeet Examples
 
-This repository contains samples and examples for [Video Puppet](https://www.videopuppet.com) scripts.
+This repository contains samples and examples for [Narakeet](https://www.narakeet.com) (formerly Video Puppet).
 
 ## Start here
 
 * [Hello World](hello-world/README.md) - basic script structure, adding images, audio and video
+
+## Full examples for typical use cases
+
+* [Screencast](screencast-demo-video/) - how to create a narrated screencast video (from screenshots/recordings)
+* [Code Tutorial](code-tutorial-demo-video/) - how to create a code tutorial (with syntax highlighting)
+* [Quick announcement](feature-announcement-demo-video) - how to create a quick feature demo or announcement
 
 ## Managing narration
 

@@ -1,12 +1,12 @@
-# Video Puppet slide CSS themes
+# Narakeet slide CSS themes
 
-This example shows how to create slide themes with CSS, in Video Puppet.
+This example shows how to create slide themes with CSS, in Narakeet.
 
 Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
@@ -36,4 +36,4 @@ theme for this scene only
 ---
 ```
 
-For more information, check out the [theme format reference](http://videopuppet.com/docs/format#theme).
+For more information, check out the [theme format reference](http://www.narakeet.com/docs/format#theme).

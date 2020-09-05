@@ -1,4 +1,4 @@
-# Extracting video segments using Video Puppet  
+# Extracting video segments using Narakeet  
 
 This example shows how to add parts of a video to a scene. This is useful in cases where you made a longer screen recording, but only want to use certain pieces of it in your video.
 
@@ -6,7 +6,7 @@ Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 

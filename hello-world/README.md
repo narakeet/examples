@@ -1,16 +1,16 @@
-# Basic Video Puppet example
+# Basic Narakeet example
 
-This example shows how the basic features of Video Puppet.
+This example shows how the basic features of Narakeet.
 
 Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
-Video Puppet creates a video from one or scenes. Each scene can include videos, images, audio or narration. 
+Narakeet creates a video from one or scenes. Each scene can include videos, images, audio or narration. 
 
 ### Adding images and videos
 
@@ -22,7 +22,7 @@ In the Markdown script file format, you can add images or videos by using the st
 
 ### Adding narration
 
-Video Puppet automatically generates narration from scene text. The following scene will include an image, and automatically generated voice narration:
+Narakeet automatically generates narration from scene text. The following scene will include an image, and automatically generated voice narration:
 
 ```md
 ![](london.jpg)

@@ -1,12 +1,12 @@
-# Video Puppet slides 
+# Narakeet slides 
 
-This example shows how to create slides with text, optionally adding them on top of images, in Video Puppet.
+This example shows how to create slides with text, optionally adding them on top of images, in Narakeet.
 
 Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
@@ -18,7 +18,7 @@ Hi there!
 ```
 ~~~
 
-In case there is also an image or a video in the same scene, Video Puppet will show the slide over the scene, with a dark backdrop shadow to create contrast between the text and the background. This works well if the image or video behind the slide is mostly in light colours. 
+In case there is also an image or a video in the same scene, Narakeet will show the slide over the scene, with a dark backdrop shadow to create contrast between the text and the background. This works well if the image or video behind the slide is mostly in light colours. 
 
 
 For darker images or videos,  set the slide theme to `light` using the theme stage direction, to switch to lighter colors in the slide without a backdrop.
@@ -66,7 +66,7 @@ You can render rich text on slides by using markdown syntax, and marking the sli
 
 ## Syntax highlighting
 
-If you want to include code snippets as slides, Video Puppet will automatically support syntax highlighting as long as you specify the language after the opening code fence.
+If you want to include code snippets as slides, Narakeet will automatically support syntax highlighting as long as you specify the language after the opening code fence.
 
 ~~~
 ```css
@@ -79,7 +79,7 @@ If you want to include code snippets as slides, Video Puppet will automatically 
 
 ## Controlling font size
 
-By default, Video Puppet sets the font for slides to relatively large (50px) to show clearly on smaller screens. For slides with a lot of text, you can set the size using the `(font-size)` stage direction. Set the value to an integer number of pixels.
+By default, Narakeet sets the font for slides to relatively large (50px) to show clearly on smaller screens. For slides with a lot of text, you can set the size using the `(font-size)` stage direction. Set the value to an integer number of pixels.
 
 ~~~
 (font-size: 20)

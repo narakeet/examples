@@ -1,12 +1,12 @@
 # Creating a video from animated GIFs 
 
-This example shows how to include animated GIFs into videos using Video Puppet. 
+This example shows how to include animated GIFs into videos using Narakeet. 
 
 Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
@@ -34,4 +34,4 @@ To loop a GIF without any narration, or for longer than the duration of the audi
 
 ## Supported synchronisation options
 
-Check out [Using Animated GIFs](https://videopuppet.com/docs/format/#using-animated-gifs) for more information on scene synchronization options.
+Check out [Using Animated GIFs](https://www.narakeet.com/docs/format/#using-animated-gifs) for more information on scene synchronization options.

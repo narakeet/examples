@@ -2,7 +2,7 @@
 
 ![](london.jpg)
 
-<!-- Video Puppet will automatically generate voice from text for scene narration -->
+<!-- Narakeet will automatically generate voice from text for scene narration -->
 
 Welcome to London
 
@@ -20,7 +20,7 @@ Welcome to Berlin
 
 <!-- 
 
-Stage directions tell Video Puppet how to build a scene, in the format:
+Stage directions tell Narakeet how to build a scene, in the format:
 
 (property: value) 
 

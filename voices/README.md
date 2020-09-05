@@ -1,12 +1,12 @@
 # Controling narration voices
 
-This example shows how to set voices for different scenes in Video Puppet. 
+This example shows how to set voices for different scenes in Narakeet. 
 
 Check out the outcome in [`result.mp4`](result.mp4).
 
 ## Try it out
 
-Upload the [`script`](script) directory to a Video Puppet project. The main script file is [`source.md`](script/source.md).
+Upload the [`script`](script) directory to a Narakeet project. The main script file is [`source.md`](script/source.md).
 
 ## How it works
 
@@ -32,7 +32,7 @@ instead be boarding a plane belonging to a Belgian budget airline.
 
 ## Available voices
 
-Check out the Video Puppet [Available Voices](https://www.videopuppet.com/docs/voices/) page for an up-to-date list of voices and to try them out.
+Check out the Narakeet [Available Voices](https://www.narakeet.com/docs/voices/) page for an up-to-date list of voices and to try them out.
 
 ## Next steps
 
