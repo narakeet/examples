@@ -9,7 +9,7 @@ jobs:
       with:
         source-path: hello-world/script/source.md
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        videopuppet-api-key: ${{ secrets.NARAKEET_API_KEY }}
+        api-key: ${{ secrets.NARAKEET_API_KEY }}
     - uses: actions/upload-artifact@v1
       with:
         name: video
