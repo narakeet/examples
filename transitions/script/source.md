@@ -13,7 +13,7 @@ transition: wipe 2
 
 ![](london.jpg)
 
-(duration: 2)
+(duration: 4)
 
 > this scene used the wipe transition from the script header
 
@@ -21,10 +21,10 @@ transition: wipe 2
 
 <!-- or you can set transitions for a specific scene -->
 
-(transition: crossfade 2)
+(transition: crossfade 0.5)
 
 (video:
   file: birds.mp4
-  segment: 4 - 6)
+  segment: 4 - 5)
 
 > this scene used the crossfade transition

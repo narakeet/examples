@@ -43,5 +43,4 @@ Note that the transition property combines the previous scene with the current s
 
 ## Available transition options
 
-* `crossfade`: fade the last frame of the scene into the first frame of the next scene 
-* `wipe`: horizontal overlay from the left 
+See <https://www.narakeet.com/docs/format/#transition> for an up-to-date list of supported transition types

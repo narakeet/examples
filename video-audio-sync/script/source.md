@@ -1,5 +1,7 @@
 ---
 size: 720p
+subtitles: overlay
+transition: crossfade 0.2
 ---
 
 > without a sync option, the last video frame is frozen to wait for audio
@@ -49,7 +51,7 @@ One, Two, Three
   sync: trim
   segment: 0 - 2)
 
-I hate it when people just keep on talking and don't know when to stop.
+I hate it when people just keep on talking and talking and talking and don't know when to stop.
 
 ---
 
