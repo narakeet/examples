@@ -8,12 +8,12 @@ Upload the [`script`](script) directory to a Narakeet project. The main script f
 
 ## How it works
 
-You can automatically generate subtitles from narration text by setting the `subtitles` property to `auto` in the script header:
+You can automatically generate subtitles from narration text by setting the `subtitles` property to `overlay` in the script header:
 
 ```yml
 ---
 size: 720p
-subtitles: auto
+subtitles: overlay
 ---
 ```
 
@@ -27,4 +27,13 @@ Narakeet will read this
 
 ```
 
-For scenes with longer narration, or to show subtitles gradually, split the text into paragraphs. 
+This trick also works to remove subtitles from a scene where you do not want them.
+
+```md
+
+This sentence will not be shown in the subtitles, because of an empty
+subtitle block below.
+
+>
+
+```
