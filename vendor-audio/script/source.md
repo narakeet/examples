@@ -8,7 +8,7 @@ use vendor instead of audio within background to load one of the audio files pro
 
 ```md
 This background music is 
-**provided** by videopuppet 
+**provided** by Narakeet 
 directly
 ```
 
