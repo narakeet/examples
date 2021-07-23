@@ -1,5 +1,6 @@
 ---
 size: 720p
+subtitles: overlay
 ---
 
 ![](stopwatch.mp4)
@@ -13,9 +14,7 @@ Let's start the clock
 
 > Show just the first frame with segment: start
 
-(video:
-  file: stopwatch.mp4
-  segment: start)
+![start](stopwatch.mp4)
 
 (duration: 2)
 
@@ -23,9 +22,7 @@ Let's start the clock
 
 > Show just the last frame with segment: end 
 
-(video:
-  file: stopwatch.mp4
-  segment: end)
+![end](stopwatch.mp4)
 
 (duration: 2)
 
@@ -33,7 +30,5 @@ Let's start the clock
 
 > play a specific range with segment in seconds
 
-(video:
-  file: stopwatch.mp4
-  segment: 00:02 - 00:04)
+![00:02-00:04](stopwatch.mp4)
 
