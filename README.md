@@ -17,6 +17,7 @@ This repository contains samples and examples for [Narakeet](https://www.narakee
 * [voices](voices/README.md): controlling the narration voice
 * [pronunciation](pronunciation/README.md): controlling pronunciation, including adding pauses
 * [subtitles](subtitles/README.md): adding subtitles
+* [subtitle-styling](subtitle-styling/README.md): controlling subtitle look & feel
 
 ## Managing audio
 
