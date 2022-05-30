@@ -10,7 +10,7 @@ Upload the [`script`](script) directory to a Narakeet project. The main script f
 
 ## How it works
 
-VideoPuppet script files can include an optional header, setting global properties. The header starts with the scene separator (`---`) in the first line,
+Narakeet script files can include an optional header, setting global properties. The header starts with the scene separator (`---`) in the first line,
 and includes a key-value map separated by colons (technically, it's a YAML block). For example, the following header sets the size and the voice for the whole document:
 
 ```yml
