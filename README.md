@@ -37,3 +37,5 @@ This repository contains samples and examples for [Narakeet](https://www.narakee
 * [transitions](transitions/README.md): creating transitions between scenes 
 * [transition-types](transition-types/README.md): demo for various transition types 
 * [gifs](gifs/README.md): using animated GIFs
+* [image-panzoom](image-panzoom/README.md): animating images with pan/zoom effects
+
