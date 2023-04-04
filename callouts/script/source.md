@@ -37,3 +37,52 @@ It will be processed by the logging component
   size: 75)
 
 Callouts also work with videos
+
+---
+
+![contain](desole-arch-2.png)
+
+(callout:
+  cx: 440
+  cy: 380
+  size: 100)
+
+Use the alpha parameter to control background shading.
+
+---
+
+(callout:
+  cx: 440
+  cy: 380
+  alpha: 0.3
+  size: 100)
+
+![contain](desole-arch-2.png)
+
+This is alpha 0.3
+
+---
+
+
+![contain](desole-arch-2.png)
+
+(callout:
+  cx: 440
+  cy: 380
+  alpha: 0.8
+  size: 100)
+
+This is alpha 0.8
+
+---
+
+Use the mask style to cover an area instead of highlighting it.
+
+![contain](desole-arch-2.png)
+
+(callout:
+  cx: 440
+  cy: 380
+  style: mask
+  size: 100)
+
