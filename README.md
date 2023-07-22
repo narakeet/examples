@@ -11,6 +11,7 @@ This repository contains samples and examples for [Narakeet](https://www.narakee
 * [Screencast](screencast-demo-video/) - how to create a narrated screencast video (from screenshots/recordings)
 * [Code Tutorial](code-tutorial-demo-video/) - how to create a code tutorial (with syntax highlighting)
 * [Quick announcement](feature-announcement-demo-video) - how to create a quick feature demo or announcement
+* [Tiktok-style Subtitled Videos](tiktok-style-subtitle-videos) - how to manipulate subtitles (fonts, position, size)
 
 ## Managing narration
 

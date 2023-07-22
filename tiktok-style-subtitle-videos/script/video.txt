@@ -1,0 +1,30 @@
+---
+size: 1080x1920
+subtitles:
+  mode: overlay
+  break: 25
+  size: 40
+  font: CarterOne-Regular.ttf
+  position: middle
+transition: crossfade 0.3
+voice: Jackie
+---
+
+![match](pexels-polina-tankilevitch-5385806.mp4)
+
+Get ready to immerse yourself in the vibrant world of rhythm and beats! 
+
+
+---
+
+![match](pexels-polina-tankilevitch-5385803.mp4)
+
+Dance workshops, inspiring showcases, and interactive sessions await you from August 14th - 20th. 
+
+---
+
+![match](pexels-polina-tankilevitch-5385807.mp4)
+
+Announcing the Unstoppable Rhythm Dance Festival! 
+
+
