@@ -16,7 +16,7 @@ When specifying a video resource, you can include a synchronization option in sq
 ![loop](stopwatch.mp4)
 ```
 
-Alternatively, you can provide a `video` stage direction, and specify the `sync` sub-property. When adding subproperties to a stage direction, indent them by two spaces or a tab. (Technically, a stage direction is in YAML format).
+Alternatively, you can provide a `video` stage direction, and specify the `sync` sub-property. When adding sub-properties to a stage direction, indent them by two spaces or a tab. (Technically, a stage direction is in YAML format).
 
 ```
 (video:

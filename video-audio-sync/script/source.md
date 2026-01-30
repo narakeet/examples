@@ -76,6 +76,25 @@ One, Two, Three.
 
 ---
 
+> ... sync:trim-or-loop will repeat a video when the audio is longer
+  
+![0-2 trim-or-loop](stopwatch.mp4)
+
+This video will loop to match the duration of my sentence, so I can speak for as long as I want.
+
+
+---
+
+> ... sync:trim-or-loop will trim the video once audio stops.
+
+![trim-or-loop](stopwatch.mp4)
+
+One, Two, Three.
+
+
+
+---
+
 > ... sync:loop-audio will repeat the audio when the video is longer
 
 ![loop-audio](stopwatch.mp4)
